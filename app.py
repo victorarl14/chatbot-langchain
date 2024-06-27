@@ -24,7 +24,7 @@ from langchain.docstore.document import Document  # Asegúrate de importar Docum
 
 # API KEY DE Gemini
 GOOGLE_API_KEY = 'AIzaSyA-TPevJZj0J7hgWyipc8WCaju06j6w5og'
-PINECONE_API_KEY = '554a90a1-13b4-4052-bc16-ea1999860a63'
+PINECONE_API_KEY = '8ab68be5-cb75-497b-9c58-5f09c16465aa'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
