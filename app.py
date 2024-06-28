@@ -204,6 +204,8 @@ if pdf_obj:
                     Answer the question as detailed as possible from the provided context,
                     make sure to provide all the details, answer me in Spanish,
                     try to give me an answer that's not just "there's no context",
+                    Give long and detailed answers, in several paragraphs if necessary. 
+                    If there is something that is not in the document, try to complement it with your knowledge.
                     don't provide the wrong answer\n\n
                     Context:\n {context}?\n
                     Question: \n{question}\n
